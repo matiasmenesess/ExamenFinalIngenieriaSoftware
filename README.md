@@ -39,13 +39,7 @@ task-system-app
 To run the application, you can create a main script that utilizes the `TaskController` class from `controller.py`. Here is a simple example:
 
 ```python
-from src.controller import TaskController
-
-if __name__ == "__main__":
-    controller = TaskController()
-    controller.create_task("Sample Task", "This is a sample task description.")
-    tasks = controller.get_tasks()
-    print(tasks)
+python src/controller.py
 ```
 
 ## Contributing
