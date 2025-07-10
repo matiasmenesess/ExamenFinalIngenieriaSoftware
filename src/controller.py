@@ -47,7 +47,7 @@ def create_user():
         nombre = data['nombre']
         
         if data_handler.get_user_by_alias(contacto):
-            return jsonify({"error": "Usuario ya existe"}), 422
+            return jsonify({"error": "Usuario ya existe"}), 403
         
         user_id = str(uuid.uuid4())
         new_user = {

@@ -1,10 +1,70 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "0afec905-3aa0-4a73-85a4-25923e66874d",
+      "nombre": "n",
+      "descripcion": "d",
+      "estado": "Nueva",
+      "usuarios": [
+        {
+          "alias": "nombre",
+          "rol": "programador"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "62d7cab7-e973-4477-8cfa-0eb69c4b8809",
+      "nombre": "n",
+      "descripcion": "d",
+      "estado": "Nueva",
+      "usuarios": [
+        {
+          "alias": "nombre",
+          "rol": "programador"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "2a99d97e-7815-49d8-8484-ab04037606ac",
+      "nombre": "n",
+      "descripcion": "d",
+      "estado": "Nueva",
+      "usuarios": [
+        {
+          "alias": "nombre",
+          "rol": "programador"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7f3776c5-8170-481b-8b4a-c365d2c38983",
+      "nombre": "nombre2",
+      "descripcion": "d",
+      "estado": "Nueva",
+      "usuarios": [
+        {
+          "alias": "nombre",
+          "rol": "programador"
+        }
+      ],
+      "dependencies": [
+        "2a99d97e-7815-49d8-8484-ab04037606ac"
+      ]
+    }
+  ],
   "users": [
     {
       "id": "c92df80b-bcad-45b0-87d2-e8eed1b4741c",
       "name": "lo siento",
       "email": "losiento@gmail.com"
+    },
+    {
+      "id": "2df8a58b-0ced-49a8-9f0d-431397a2a439",
+      "name": "nombre",
+      "email": "nombre"
     }
   ]
 }
